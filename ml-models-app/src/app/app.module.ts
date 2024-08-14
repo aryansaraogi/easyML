@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { SuggestionPageComponent } from './suggestion-page/suggestion-page.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    SuggestionPageComponent
+    SuggestionPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
