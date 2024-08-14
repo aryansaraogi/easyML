@@ -15,7 +15,7 @@ export class SuggestionPageComponent {
   };
 
   onSubmit() {
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this.suggestion, 'YOUR_USER_ID')
+    emailjs.send('service_egxdsfr', 'template_lvqr2zn', this.suggestion, 'up7Peaw4yhzp7_HRq')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
         alert('Suggestion sent successfully!');
