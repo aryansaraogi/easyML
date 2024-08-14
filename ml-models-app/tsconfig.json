@@ -11,6 +11,9 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+
+    "skipLibCheck": true,
+
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
@@ -22,7 +25,8 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "typeRoots": ["node_modules/@types"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
