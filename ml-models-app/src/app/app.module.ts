@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { SuggestionPageComponent } from './suggestion-page/suggestion-page.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { CenteredDivComponent } from './centered-div/centered-div.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     AboutComponent,
     SuggestionPageComponent,
-    FooterComponent
+    FooterComponent,
+    CenteredDivComponent
   ],
   imports: [
     BrowserModule,
